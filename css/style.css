@@ -168,6 +168,27 @@ body{
     padding-top: 100px;
 }
 
+#grid-text4{
+    font-size: 25px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #130f40;
+    color: whitesmoke;
+    padding-top: 100px;
+}
+
+#grid-text5{
+    font-size: 25px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #130f40;
+    color: whitesmoke;
+    padding-top: 100px;
+}
+
+
 #grid-bild1{
     background-image: url("../bilder/saiki.jpeg");
     background-repeat: no-repeat;
@@ -184,6 +205,20 @@ body{
 
 #grid-bild3{
     background-image: url("../bilder/osaka.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+#grid-bild4{
+    background-image: url("../bilder/saiki-extra.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+#grid-bild5{
+    background-image: url("../bilder/kyoto.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
