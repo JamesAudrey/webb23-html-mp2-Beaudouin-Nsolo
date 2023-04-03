@@ -8,6 +8,12 @@ body{
     background-color: whitesmoke;
 }
 
+:root{
+    --height: 250px;
+    --padding: 10px;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -124,7 +130,7 @@ body{
     grid-template-rows: auto;
     gap: 10px;
     background-color: black;
-    padding: 10px;
+    padding: var(--padding);
     margin-top: 15px;
     margin-bottom: 90px;
     margin-right: 90px;
@@ -193,35 +199,35 @@ body{
     background-image: url("../bilder/saiki.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 250px;
+    height: var(--height);
 }
 
 #grid-bild2{
     background-image: url("../bilder/fujitsu.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 250px;
+    height: var(--height);
 }
 
 #grid-bild3{
     background-image: url("../bilder/osaka.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 250px;
+    height: var(--height);
 }
 
 #grid-bild4{
     background-image: url("../bilder/saiki-extra.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 250px;
+    height: var(--height);
 }
 
 #grid-bild5{
     background-image: url("../bilder/kyoto.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 250px;
+    height: var(--height);
 }
 
 .text-remove{
